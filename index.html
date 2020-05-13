@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+  
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/reset.css" />
+
+  <title>Leo Di Bartoli</title>
+</head>
+
+<body>
+  <section class="header">
+    <div class="header__top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 d-flex align-items-center">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram  "></i>
+            <i class="fab fa-tumblr-square"></i>
+          </div>
+          <div class="col-md-7 my-auto">
+            <a href="">My Account</a>
+            <a href="">Order status</a>
+            <a href="" >Wish Lists</a>
+            <a href="" class="border-right border-dark ">Gift Certificates</a>
+            <a href="" class="pl-3">Sign in or Create an Account</a>
+          </div>
+          <div class="col-md-3">
+            <p>Di Bartoli Hotline: +61 2 9389 9892</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="header__middle py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3" id="logo">
+            <img src="/images/Layer 169.png" alt="">
+          </div>
+          <div class="col-md-9 m-auto">
+            <div class="row d-flex justify-content-end ">
+              <div class="col-md-3 px-0 ml-1">
+                <form action="/action_page.php" class="ml-5">
+                  <input id="ip-middle" type="text" placeholder="Quick search.." name="search">
+                  <button id="btn-middle" type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+             <div class="col-md-1 px-0 my-auto">
+              <i id="cart-middle" class="fas fa-shopping-cart"> <span id="sp-middle" class="badge badge-warning rounded-circle">7</span></i>
+             </div>
+            </div>
+            <div class="row d-flex justify-content-end py-3"  id="menu-middle">
+              <nav class="navbar navbar-expand-md ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <svg class="bi bi-justify" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M2 12.5a.5.5 0 01.5-.5h11a.5.5 0 010 1h-11a.5.5 0 01-.5-.5zm0-3a.5.5 0 01.5-.5h11a.5.5 0 010 1h-11a.5.5 0 01-.5-.5zm0-3a.5.5 0 01.5-.5h11a.5.5 0 010 1h-11a.5.5 0 01-.5-.5zm0-3a.5.5 0 01.5-.5h11a.5.5 0 010 1h-11a.5.5 0 01-.5-.5z" clip-rule="evenodd"/>
+                  </svg>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">OUR STORY</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">SHOP</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">RESOURCES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">SUPPORT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT US</a>
+                  </li>
+                </ul>
+                </div>
+              </nav>
+          
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="header__bottom py-3 border">
+      <div class="container">
+        <div class="row">
+          
+            <!-- <nav class="navbar navbar-expand-sm bg-light justify-content-center ">
+              <ul class="navbar-nav ">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">FOR HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">FOR WORK</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">FOR TRAVE</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link " href="#">BEANS SUBSCRIPTION</a>
+                </li>
+              </ul>
+            </nav>
+          </div> -->
+         
+          <div class="col-lg-3">
+            <a href="">FOR HOME</a>
+          </div>
+          <div class="col-lg-3 ">
+            <a href="">FOR WORK</a>
+          </div>
+          <div class="col-lg-3 ">
+            <a href="">FOR TRAVEL</a>
+          </div>
+          <div class="col-lg-3 ">
+            <a href="">BEANS SUBSCRIPTION</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="banner">
+  <div class="container">
+    <div class="row" id="banner-bg">
+     <h1 class="text-center">DELICIOUS COFFE ANYWHERE ANYTIME</h1>
+    </div>
+    <div class="row py-4">
+      <div class="col-md-12 px-0">
+        <div class="card-group">
+      
+          <div class="card ">
+            <div class="card-body text-center" id="home-ban">
+              <h4 class="card-title">Home</h4>
+            </div>
+            <img class="card-img-bottom" src="/images/Layer 172.png" alt="Card image" style="width:100%">
+          </div>
+          <div class="card ">
+            <div class="card-body text-center" id="work-ban">
+              <h4 class="card-title">WORK</h4>
+            </div>
+            <img class="card-img-bottom" src="/images/Layer 173.png" alt="Card image" style="width:100%">
+          </div>
+          <div class="card ">
+            <div class="card-body text-center" id="travel-ban">
+              <h4 class="card-title">TRAVEL</h4>
+            </div>
+            <img class="card-img-bottom" src="/images/Layer 174.png" alt="Card image" style="width:100%">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="passion">
+  <div class="container">
+    <div class="row py-5" id="light">
+    
+        <h2>
+          <span id="lighter">PASSION FOR </span>
+          <span>SPECIALTY COFFEE</span>
+        </h2>
+      
+    </div>
+
+    <div class="row">
+      <div class="col-lg-7" id="ads">
+        <div class="row">
+          <div class="col-md-4" id="bg1">
+            <div class="col-5 px-0" id="bg1-1">
+              <h5>Prosumer Machines for Home</h5>
+            <a href="">Shop></a>
+            </div>
+          </div>
+          <div class="col-md-4" id="bg2">
+            <div class="col-5 px-0" id="bg1-2">
+              <h5>Prosumer Machines for Home</h5>
+            <a href="">Shop></a>
+            </div>
+          </div>
+          <div class="col-md-4 " id="bg3">
+            <div class="col-9 px-0" id="bg1-3">
+              <h5>Di Bartoli Specialty
+                Coffee Beans</h5>
+            <a href="" class="pr-5">Choose a Subscription></a>
+            <a href="" class="pl-5">Shop Beans ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row pt-3">
+          <div class="col-md-4" id="bg4">
+            <div class="col-5 px-0" id="bg1-1">
+              <h5>Prosumer Machines for Home</h5>
+            <a href="">Shop></a>
+            </div>
+          </div>
+          <div class="col-md-4" id="bg5">
+            <div class="col-9 px-0" id="bg1-5">
+              <h5>Prosumer Machines for Home</h5>
+            <a href="">Shop></a>
+            </div>
+          </div>
+          <div class="col-md-4" id="bg6">
+            <div class="col-5 px-0" id="bg1-1">
+              <h5>Prosumer Machines for Home</h5>
+            <a href="">Shop></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-5 pl-5" id="content-pass">
+        <div class="row py-5  d-flex justify-content-center">
+          <img src="/images/small4.png" alt="">
+        </div>
+        <div class="row">
+          <p>Have you always wanted to create at home the same experience you get while drinking coffee made by your
+            favorite Barista? </p>
+          <p>Have you ever been frustrated after making the effort of buying a coffee machine, or beans from your local
+            Deli and it still didn't taste right? </p>
+          <p>We are here to help! Di Bartoli is an expert in the Home Barista field and is passionate about empowering
+            Coffee lovers to achieve coffee excellence at home. </p>
+          <p>We help you taking the guesswork out of divine home coffee and support you every step of the way with a
+            professional advice, quality gear, technical support, coffee beans choices and naturally, training.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row py-3" id="main-pass">
+      <p>We are honoured and grateful to have been working with over 10,000 home baristas in Australia for the last 10
+        years. </p>
+      <p>Today, some of them who have partnered with us for several years, share their experiences below so that you too
+        can realize help is accessible and easy. You just need to reach out a hand and engage with us! </p>
+      <p>Whether you want to learn more about improving your home coffee, buying new gear, attending a workshop,
+        understanding Specialty Coffee better, or just seeking to impress your coffee lover significant other. We are
+        the only one-stop-shop retailer, educator, and roaster in Australia that is dedicated to take you from confusion
+        to clarity and from mediocre to sublime at home, answers and lots of fun are to be found right here.</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="row" id="b1">
+         <div class="text-right col-8 " id="book">
+          <h3>BOOK A FREE CALL</h3>
+          <p>with our Equipment Expert</p>
+          <button>BOOK NOW</button>
+         </div>
+        </div>
+        <div class="row" id="b2">
+          <div id="book2" class="py-4">
+            <h3>GET <span>20% OFF</span></h3>
+            <p>for purchases above $1,000!</p>
+          </div>
+
+        </div>
+      </div>
+      
+      <div class="col-lg-3" id="b3">
+        <div id="start">
+          <p>Want an expert advise on</p>
+          <h3>THE BEST
+            MACHINE
+            FOR YOU?</h3>
+            <button>START NOW</button>
+        </div>
+      </div>
+
+      <div class="col-lg-6" id="b4">
+        <div id="say">
+          <h3 >What people are saying</h3>
+          <p>"I would like to say a thank you to Di Bartoli and in particular Renzo for the prompt, honest and courteous service of my Bezzera Domus Galatea Coffee Machine a couple of weeks back, it is not often you walk out of a business thinking what great service you have received. I never usually acknowledge a business but I felt in this instance I should- well done."
+            <span class="font-italic">Susan  Melville</span>
+          </p>
+          <a href="">Read more ></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="featured py-3">
+  <div class="container">
+    <div class="row" id="light">
+      <h2>
+        <span  id="lighter">FEATURED</span>
+        <span>PRODUCT </span>        
+      </h2>
+    </div>
+    <div class="row pb-4" id="row-sli">         
+      <div class="col-sm" id="xc">
+        <img class="rounded mx-auto d-block" src="images/Layer 193.png" alt="" >
+        <div class="card-body">
+          <h4 class="card-title">Nuova Simonelli Oscar 2 - Black</h4>
+          <p class="card-text">$1,463.00 </p>
+          <a href="#" class="btn btn-primary">ADD TO CART</a>
+        </div>
+      </div>
+      <div class="col-sm" id="xc">
+        <img class="rounded mx-auto d-block" src="images/Layer 193.png" alt="" >
+        <div class="card-body">
+          <h4 class="card-title">Nuova Simonelli Oscar 2 - Black</h4>
+          <p class="card-text">$1,463.00 </p>
+          <a href="#" class="btn btn-primary">ADD TO CART</a>
+        </div>
+      </div><div class="col-sm" id="xc">
+        <img class="rounded mx-auto d-block" src="images/Layer 193.png" alt="" >
+        <div class="card-body">
+          <h4 class="card-title">Nuova Simonelli Oscar 2 - Black</h4>
+          <p class="card-text">$1,463.00 </p>
+          <a href="#" class="btn btn-primary">ADD TO CART</a>
+        </div>
+      </div><div class="col-sm" id="xc">
+        <img class="rounded mx-auto d-block" src="images/Layer 193.png" alt="" >
+        <div class="card-body">
+          <h4 class="card-title">Nuova Simonelli Oscar 2 - Black</h4>
+          <p class="card-text">$1,463.00 </p>
+          <a href="#" class="btn btn-primary">ADD TO CART</a>
+        </div>
+      </div><div class="col-sm" id="xc">
+        <img class="rounded mx-auto d-block" src="images/Layer 193.png" alt="" >
+        <div class="card-body">
+          <h4 class="card-title">Nuova Simonelli Oscar 2 - Black</h4>
+          <p class="card-text">$1,463.00 </p>
+          <a href="#" class="btn btn-primary">ADD TO CART</a>
+        </div>
+      </div><div class="col-sm" id="xc">
+        <img class="rounded mx-auto d-block" src="images/Layer 193.png" alt="" >
+        <div class="card-body">
+          <h4 class="card-title">Nuova Simonelli Oscar 2 - Black</h4>
+          <p class="card-text">$1,463.00 </p>
+          <a href="#" class="btn btn-primary">ADD TO CART</a>
+        </div>
+      </div>                   
+   </div>   
+  </div>
+</section>
+
+<section class="menu">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 pr-5">
+        <ul id="cate"><h3>CATEGORIES</h3>
+          <li>Espresso Machines</li>
+          <li>Espresso Grinders</li>
+          <li>Office Equipment 
+            Packages</li>
+          <li>Coffee Beans
+            Subscription</li>
+          <li>Other Brewing
+            Equipment</li>
+          <li>Publications & DVD's</li>
+          <li>Barista Accessories</li>
+          <li>The Little Guy
+            Accessories</li>
+          <li>Specialty Coffee Beans</li>
+          <li>Training</li>
+          <li>Home Roasting</li>
+          <li>Spare Parts</li>
+          <li>Cleaning and Filtration
+          </li>
+          <li>New and Back in Stock</li>
+          <li>Gifts Ideas</li>
+          <li>ON SALE NOW</li>
+          <li>Clearance and
+            Ex-Demo Machines Sale</li>
+        </ul>
+
+        <ul id="brand"><h3>BRANDS</h3>
+          <li>Compak</li>
+          <li>Hario</li>
+          <li>ECM Manufacture</li>
+          <li>Mazzer</li>
+          <li>Bezzera</li>
+          <li>Isomac</li>
+          <li>Expobar</li>
+          <li>Rocket</li>
+          <li>Macap</li>
+          <li>Rancilio</li>
+          <li>See all brands</li>
+        </ul>
+      </div>
+      <div class="col-lg-9">
+        <div class="row" id="hom">
+          <h3>HOME</h3>
+        </div>
+        <div class="row pb-3">
+          <div class="col-lg-3">
+            <img class="rounded mx-auto d-block" src="images/Layer 193.png" alt="" >
+            <div class="card-body">
+              <h4 class="card-title">Nuova Simonelli Oscar 2 - Black</h4>
+              <p class="card-text">$1,463.00 </p>
+              <a href="#" class="btn btn-primary">ADD TO CART</a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <img class="rounded mx-auto d-block" src="images/Layer 193.png" alt="" >
+            <div class="card-body">
+              <h4 class="card-title">Nuova Simonelli Oscar 2 - Black</h4>
+              <p class="card-text">$1,463.00 </p>
+              <a href="#" class="btn btn-primary">ADD TO CART</a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <img class="rounded mx-auto d-block" src="images/Layer 193.png" alt="" >
+            <div class="card-body">
+              <h4 class="card-title">Nuova Simonelli Oscar 2 - Black</h4>
+              <p class="card-text">$1,463.00 </p>
+              <a href="#" class="btn btn-primary">ADD TO CART</a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <img class="rounded mx-auto d-block" src="images/Layer 193.png" alt="" >
+            <div class="card-body">
+              <h4 class="card-title">Nuova Simonelli Oscar 2 - Black</h4>
+              <p class="card-text">$1,463.00 </p>
+              <a href="#" class="btn btn-primary">ADD TO CART</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" id="wor">
+          <h3>WORK</h3>
+        </div>
+        <div class="row pb-3">
+          <div class="col-lg-3">
+            <img class="rounded mx-auto d-block " src="images/Layer 193.png" alt="" >
+            <div class="card-body">
+              <h4 class="card-title">Nuova Simonelli Oscar 2 - Black</h4>
+              <p class="card-text">$1,463.00 </p>
+              <a href="#" class="btn btn-primary">ADD TO CART</a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <img class="rounded mx-auto d-block" src="images/Layer 193.png" alt="" >
+            <div class="card-body">
+              <h4 class="card-title">Nuova Simonelli Oscar 2 - Black</h4>
+              <p class="card-text">$1,463.00 </p>
+              <a href="#" class="btn btn-primary">ADD TO CART</a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <img class="rounded mx-auto d-block" src="images/Layer 193.png" alt="" >
+            <div class="card-body">
+              <h4 class="card-title">Nuova Simonelli Oscar 2 - Black</h4>
+              <p class="card-text">$1,463.00 </p>
+              <a href="#" class="btn btn-primary">ADD TO CART</a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <img class="rounded mx-auto d-block" src="images/Layer 193.png" alt="" >
+            <div class="card-body">
+              <h4 class="card-title">Nuova Simonelli Oscar 2 - Black</h4>
+              <p class="card-text">$1,463.00 </p>
+              <a href="#" class="btn btn-primary">ADD TO CART</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" id="trav">
+          <h3>TRAVEL</h3>
+        </div>
+        <div class="row pb-3">
+          <div class="col-lg-3">
+            <img class="rounded mx-auto d-block" src="images/Layer 193.png" alt="" >
+            <div class="card-body">
+              <h4 class="card-title">Nuova Simonelli Oscar 2 - Black</h4>
+              <p class="card-text">$1,463.00 </p>
+              <a href="#" class="btn btn-primary">ADD TO CART</a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <img class="rounded mx-auto d-block" src="images/Layer 193.png" alt="" >
+            <div class="card-body">
+              <h4 class="card-title">Nuova Simonelli Oscar 2 - Black</h4>
+              <p class="card-text">$1,463.00 </p>
+              <a href="#" class="btn btn-primary">ADD TO CART</a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <img class="rounded mx-auto d-block" src="images/Layer 193.png" alt="" >
+            <div class="card-body">
+              <h4 class="card-title">Nuova Simonelli Oscar 2 - Black</h4>
+              <p class="card-text">$1,463.00 </p>
+              <a href="#" class="btn btn-primary">ADD TO CART</a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <img class="rounded mx-auto d-block" src="images/Layer 193.png" alt="" >
+            <div class="card-body">
+              <h4 class="card-title">Nuova Simonelli Oscar 2 - Black</h4>
+              <p class="card-text">$1,463.00 </p>
+              <a href="#" class="btn btn-primary">ADD TO CART</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="other py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 ">
+        <div class="row d-block px-5 pt-5">
+          <h3>UNLOCK <span class="font-weight-bold">MEMBER SPECIALS</span></h3>
+          <p>sign-up to instantly receive our monthly members’ specials
+          </p>
+          <p>You sill also be notified of new products, events, promotions, and coffee education</p>
+          <div class="form pb-2">
+            <input type="email" id="email" placeholder="Email Address" name="email">
+          </div>
+         
+          <button>UNLOCK MEMBER SPECIALS</button>
+        </div>
+      </div>
+      <div class="col-lg-7 align-end">
+        
+          <h2>Di<span class="font-weight-bold">Bartoli</span></h2>
+          <h4>Rosebery Coffee Hub</h4>
+          <p>Opening soon at</p>
+           <p> 647 Botany Rd, Rosebery, NSW</p>
+        <button class="">KNOW THE LOCATION</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="inf py-3">
+      <div class="row">
+        <div class="col-lg-3">
+          <ul>
+            <h3>SHOP WITH US</h3>
+              <li>Shopping Guide</li>
+              <li>Shipping</li>
+              <li>Payment</li>
+              <li>Why Shop with Us?</li>
+              <li>Return & Exchange Policy</li>
+           
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <ul> <h3>CUSTOMER SERVICE</h3>
+            <li>Contact Us</li>
+            <li>FAQ</li>
+            <li>Product Disclaimer</li>
+            <li>Product Reviews</li>
+            <li>Choosing a machine</li>
+            <li>About Us</li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <ul> <h3>MY ACCOUNT</h3>
+            <li>Login</li>
+            <li>Register</li>
+            <li>Forgot Username</li>
+            <li>Lost Password</li>
+            
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <ul> <h3>OPPORTUNITY</h3>
+            <li>Wholesale / Bulk Quantity</li>
+            <li>Promos / Sale</li>
+         
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="last">
+      <div class="row">
+        <div class="col text-center">
+          <p>Copyright 2017 DiBartoli &nbsp;  |&nbsp;   All Rights Reserved &nbsp;     | &nbsp;    Web Design, Coding, and Implementation by PoshThemes Web Design Solutions </p>
+        </div>     
+      </div>
+      <div class="row d-flex justify-content-center ">
+      
+        <a href="">Sitemap</a>&nbsp; •&nbsp; 
+        <a href=""> &nbsp;Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
+<script type="text/javascript">
+  
+  $('#row-sli').slick({
+
+
+slidesToShow: 4,
+slidesToScroll: 4,
+responsive: [
+{
+  breakpoint: 1024,
+  settings: {
+    slidesToShow: 3,
+    slidesToScroll: 3
+    
+  }
+},
+{
+  breakpoint: 600,
+  settings: {
+    slidesToShow: 1,
+    slidesToScroll: 1
+  }
+},
+{
+  breakpoint: 480,
+  settings: {
+    slidesToShow: 1,
+ 
+    slidesToScroll: 1
+  }
+}
+// You can unslick at a given breakpoint now by adding:
+// settings: "unslick"
+// instead of a settings object
+]
+});
+
+</script>
+</body>
+
+</html>
