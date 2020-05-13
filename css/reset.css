@@ -1,176 +1,62 @@
 @media only screen and (max-width: 1199px) {
-   
-        #h4-hm {
-            position: absolute;
-            left: 20%;
-            top: 25%;
-            font-size: 2.1rem;
-        }
-        #col-cart h4 {
-            font-size: 1.8rem;
-        }
-        #col-cart h3 {
-            font-size: 2rem;
-        }
+  #ip-middle {
+    width: 86%;
+    height: 2.88rem;
+  }
+  .header__top p {
+    text-align: left;
   }
 
-  @media only screen and (max-width: 991px)  {
-    #col-cart {
-        border-right: 0 groove;
-        border-bottom: 1px groove;
-        border-top: 1px groove;
-        display: flex;
-    margin-left: 3.5rem;
-    padding-top: 2rem;
-    }
-    #ci{
-        padding-left: 5rem !important;
-    }
-
-    #col-wish{
-        padding-bottom: 3rem;
-    }
-    #h4-hm {
-        position: absolute;
-        left: 7%;
-        top: 50%;
-        font-size: 2.1rem;
-    }
-
-#cart{
-  
-    border-right-style: 2px solid !important  ;
-}
-
-#categories .list-group-item .list-group .list-group-item .list-group-item {
-    border-bottom-width: 1px;
-    margin-right: 1rem;
-}
-
-img.card-img-top{
+  #b1,
+  #b2 {
     width: 100%;
+  }
 }
 
-#sale {
+@media only screen and (max-width: 768px) {
+  #bg1,
+  #bg2,
+  #bg3,
+  #bg4,
+  #bg5,
+  #bg6 {
+    width: 18rem;
+  }
+  #bg1-1 {
     position: absolute;
-    font-size: 0.7rem;
-    border-radius: 100%;
-    height: 4rem;
-    width: 4rem;
-    right: 10%;
-    
-}
-#shape10 {
-    display: none;
-}
-.card-group a {
-    font-size: 1.2rem;
-    /* width: 8rem; */
-    text-align: center;
-    height: 5rem;
-    /* white-space: nowrap; */
-    overflow: hidden;
-    text-overflow: ellipsis;
-    word-wrap: normal
-}
-#categories li.list-group-item {
-    font-size: 1.3rem;
-    margin-right: 50%;
-}
-#all {
-    text-align: center;
-}
-
-#listCate{
-    display: none;
-}
-
-#ban-left {
-    width: 60rem;
-}
-#books {
-    border: 1px groove burlywood;
-   margin: auto
-}
-}
-  
-
-  /* out */
-  #row-lo_se{
-      display: flex;
-      padding-bottom: 1rem;
+    top: 30%;
+    right: 3%;
+    width: 44%;
+  }
+  #bg1-2 {
+    position: absolute;
+    top: 30%;
+    width: 45%;
   }
 
-  @media only screen and (max-width: 400px) {
-    #row-lo_se{
-        display: block;
-    }
-    .input-group-append{
-        width:  4.8rem;
-    }
-    #button-addon2 {
-        font-size: 1.4rem;
-    }
-    #col-cart{
-        display: block;
-      
-    }
-
-    .header_middle img#logo{
-        padding-bottom: 1rem;
-    }
-
-    #h4-hm {
-        position: absolute;
-        left: 10%;
-        top: 50%;
-        font-size: 2.1rem;
-    }
-
-    #ci{
-        padding-left: 0rem !important;
-    }
-    #sale {
-        position: absolute;
-        font-size: 2rem;
-        border-radius: 100%;
-        height: 9rem;
-        width: 9rem;
-        right: 10%;
-    }
-    #books {
-        border: 1px groove burlywood;
-       margin: auto
-    }
-    #categories li.list-group-item {
-        font-size: 1.3rem;
-        width: 20rem;
-    }
-    .card-group a {
-        font-size: 2rem;
-    }
-    .list-group list-group-flush{
-        width: 30rem;
-    }
-    .footer_menu .list-group-item {
-        font-size: 1.4rem;
-        border-bottom-color: #6e736e;
-        width: 30rem;
-    }
-
-    #books a.card-text {
-        font-size: 3rem;
-    }
-
-    .card-group p {
-        font-size: 4rem;
-        text-align: center;
-        color: red;
-    }
+  #col1-other, #col2-other{
+      width: 100%;
   }
+}
+
+@media only screen and (max-width: 991px) {
+    .other .col-7 {
+        margin-left: 42%;
+       
+    }
+    .other .col-md-7 button{
+        margin-left: -7%;
+    }
+    #list-menu {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+}
 
 /* product */
-@media only screen and (max-width: 991px) {
+/* @media only screen and (max-width: 991px) {
     #btn-price {
         position: absolute;
         right: 17%;
@@ -193,4 +79,4 @@ img.card-img-top{
     #books a.card-text {
         font-size: 3rem;
     }
-}
+} */

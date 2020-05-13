@@ -33,7 +33,7 @@ html {
 }
 
 #ip-middle{
-    width: 15.8rem;
+    width: 15.5rem;
     height: 2.8rem;
 }
 
@@ -59,14 +59,14 @@ position: relative;
     padding-right: 5rem;
     font-size: 1.25rem;
     color: black;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .header__bottom a{
     padding-right: 5rem !important;
     font-size: 1.25rem;
     color: black;
-    font-weight: 200;
+    font-weight: 500;
 }
 /* banner */
 #banner-bg{
@@ -133,7 +133,7 @@ position: relative;
     display: block;
     background: url(/images/body2.jpg) no-repeat center center/cover;
     height:25.8rem;
-    width: 21.9rem;
+    width: 100%;
     margin-bottom: 1rem;
     position: relative;
 }
@@ -142,7 +142,7 @@ position: relative;
     display: block;
     background: url(/images/body4.jpg) no-repeat center center/cover;
     height:25.8rem;
-    width: 21.5rem;
+    width: 100%;
     margin-bottom: 1rem;
     position: relative;
 }
@@ -383,21 +383,21 @@ color: #5913A3;
 
 /* other */
 
-.other .col-lg-5{
+.other .col-md-5{
     background: url(/images/ft1.png)  no-repeat center center/cover;
     width: 39.1rem;
     height: 25.8rem;
     color: white;
 }
 
-.other .col-lg-5 h3{
+.other .col-md-5 h3{
     font-size: 2.5rem;
     text-align: center;
     font-weight: 200;
     letter-spacing: 0.18rem
 }
 
-.other .col-lg-5 p{
+.other .col-md-5 p{
     font-size: 1.3rem;
 }
 
@@ -410,7 +410,7 @@ color: #5913A3;
     background-color: #cbcbcb;
 }
 
-.other .col-lg-5 button {
+.other .col-md-5 button {
     background-color: #5913a3;
     border: 1px;
     color: white;
@@ -418,14 +418,14 @@ color: #5913A3;
     margin-left: 7%;
 }
 
-.other .col-lg-7{
+.other .col-md-7{
     background: url(/images/ft2.png)  no-repeat center center/cover;
     width: 39.1rem;
     height: 25.8rem;
 
 }
 
-.other .col-lg-7 h2{
+.other .col-md-7 h2{
     font-size: 5.3rem;
     text-align: center;
     font-weight: 400;
@@ -434,22 +434,28 @@ color: #5913A3;
     
 }
 
-.other .col-lg-7 h4 {
+.other .col-md-7 h4 {
     font-size: 2.15rem;
     text-align: center;
 }
 
-.other .col-lg-7 p{
+.other .col-md-7 p{
     text-align: center;
 }
 
-.other .col-lg-7 button{
+.other .col-md-7 button{
     width: 19.4rem;
     height: 2.9rem;
     background-color: #5913a3;
     border: 1px;
     color: white;
-    margin-left: 3rem;
+    position: absolute;
+    left: 24%;
+}
+
+.other .col-7 {
+    margin-left: 50%;
+   
 }
 
 /* footer */
