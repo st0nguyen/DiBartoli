@@ -39,7 +39,7 @@ html {
 
 #btn-middle{
     position: absolute;
-    right: 10%;
+    right: 13%;
     height: 2.8rem;
 }
 
@@ -71,8 +71,23 @@ position: relative;
 /* banner */
 #banner-bg{
     height: 40.6rem;
-    background: url(/images/Main\ Carousel.png) no-repeat;
+    background: url(/images/Clip.png) no-repeat;
     background-size: cover;
+}
+
+#banner-bg h1{
+    text-align: center;
+    color: white;
+    font-size: 3.22rem;
+    width: 100%;
+    position: relative;
+    top: 50%;
+    font-weight: 900;
+
+}
+
+#banner-bg h1 span {
+    font-weight: 200;
 }
 
 #bg1 {
