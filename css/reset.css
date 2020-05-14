@@ -9,7 +9,87 @@
 
   #b1,
   #b2 {
-    width: 100%;
+    width: 104%;
+  }
+
+  
+}
+
+
+
+@media only screen and (max-width: 991px) {
+#nav1{
+    display: none;
+}
+
+#open {
+    display: block;
+}
+    
+    .other .col-7 {
+        margin-left: 42%;
+       
+    }
+    .other .col-md-7 button{
+        margin-left: -7%;
+    }
+    #list-menu {
+        display: flex;
+    }
+
+    #logo {
+        float: left;
+        width: 20%;
+    }
+
+    #search {
+        float: left;
+        width: 80%;
+        margin: 0px !important;
+
+    }
+
+    #menu-middle{
+       
+    }
+
+    #gr-search {
+        float: left;
+        width: 80%;
+        justify-content: start !important;
+        justify-content: unset;
+    }
+
+    #menu-middle a{
+      padding-right: 0;
+    }
+
+    #btn-middle {
+      position: absolute;
+      right: 49%;
+      height: 2.8rem;
+  }
+
+  .header__bottom {
+    display: none;
+  }
+  
+  #product .col-lg-3 {
+    float: left;
+    width: 50%;
+  }
+
+  #cate-list, #brand-list {
+    display: none;
+  }
+
+  #to-cate::after, #to-brand::after{
+    content: "  ▼";
+  }
+
+  footer .col-lg-3 {
+    float: left;
+    width: 50%;
   }
 }
 
@@ -41,19 +121,12 @@
   #menu-middle {
       display: block !important;
   }
-}
 
-@media only screen and (max-width: 991px) {
-    .other .col-7 {
-        margin-left: 42%;
-       
-    }
-    .other .col-md-7 button{
-        margin-left: -7%;
-    }
-    #list-menu {
-        display: flex;
-    }
+  #btn-middle {
+    position: absolute;
+    right: 65%;
+   
+}
 }
 
 @media only screen and (max-width: 400px) {
