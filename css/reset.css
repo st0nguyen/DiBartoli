@@ -91,6 +91,8 @@
     float: left;
     width: 50%;
   }
+
+  
 }
 
 @media only screen and (max-width: 768px) {
@@ -126,6 +128,12 @@
     position: absolute;
     right: 65%;
    
+}
+
+#cart-middle {
+  font-size: 2rem;
+  position: relative;
+  margin-left: 6rem;
 }
 }
 
